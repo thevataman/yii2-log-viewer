@@ -1,0 +1,21 @@
+{
+    "name": "vataman/yii2-log-viewer",
+    "description": "Выводит логи в удобном виде",
+    "type": "yii2-extension",
+    "keywords": ["yii2","log-viewer","log-reader","extension",""],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yury Vataman",
+            "email": "thevataman@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "vataman\\logviewer\\": ""
+        }
+    }
+}
